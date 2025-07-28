@@ -1,0 +1,10 @@
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\bin\Release\DataLayer.dll.config
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\bin\Release\DataLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\bin\Release\DataLayer.XmlSerializers.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\bin\Release\DataLayer.pdb
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\bin\Release\ModelLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\bin\Release\ModelLayer.pdb
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\obj\Release\DataLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\obj\Release\DataLayer.pdb
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\obj\Release\DataLayer.XmlSerializers.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\DataLayer\obj\Release\DataLayer.csprojResolveAssemblyReference.cache

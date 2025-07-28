@@ -1,0 +1,5 @@
+C:\Users\carreguin\source\repos\ApiSmCotizador\ModelLayer\bin\Release\ModelLayer.dll.config
+C:\Users\carreguin\source\repos\ApiSmCotizador\ModelLayer\bin\Release\ModelLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\ModelLayer\bin\Release\ModelLayer.pdb
+C:\Users\carreguin\source\repos\ApiSmCotizador\ModelLayer\obj\Release\ModelLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\ModelLayer\obj\Release\ModelLayer.pdb

@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\smx00-crm17\c$\inetpub\ApiSmCotizador</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>08/29/2018 08:07:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>08/29/2018 08:07:03</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>08/29/2018 08:07:02</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>08/29/2018 08:07:01</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/09/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/ApiSmCotizador.dll">
+      <publishTime>11/27/2018 16:00:39</publishTime>
+    </File>
+    <File Include="bin/ApiSmCotizador.pdb">
+      <publishTime>11/22/2018 09:57:57</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>08/29/2018 08:07:07</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.dll">
+      <publishTime>11/27/2018 16:00:20</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.dll.config">
+      <publishTime>11/22/2018 09:44:11</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.pdb">
+      <publishTime>11/22/2018 09:57:40</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.XmlSerializers.dll">
+      <publishTime>11/27/2018 16:00:31</publishTime>
+    </File>
+    <File Include="bin/DataLayer.dll">
+      <publishTime>11/27/2018 16:00:04</publishTime>
+    </File>
+    <File Include="bin/DataLayer.dll.config">
+      <publishTime>11/22/2018 09:46:19</publishTime>
+    </File>
+    <File Include="bin/DataLayer.pdb">
+      <publishTime>11/22/2018 09:57:27</publishTime>
+    </File>
+    <File Include="bin/DataLayer.XmlSerializers.dll">
+      <publishTime>11/27/2018 16:00:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>06/27/2017 12:59:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>02/22/2018 15:25:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>02/22/2018 15:36:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>02/22/2018 13:39:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>02/22/2018 15:35:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>02/22/2018 15:36:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>02/22/2018 13:36:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/ModelLayer.dll">
+      <publishTime>11/27/2018 15:59:59</publishTime>
+    </File>
+    <File Include="bin/ModelLayer.dll.config">
+      <publishTime>08/29/2018 08:31:19</publishTime>
+    </File>
+    <File Include="bin/ModelLayer.pdb">
+      <publishTime>11/21/2018 15:43:38</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 08:44:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>10/05/2018 22:38:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>10/05/2018 22:37:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/02/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>10/05/2018 22:39:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>10/05/2018 22:39:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/02/2018 11:19:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/02/2018 11:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/02/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/02/2018 11:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/02/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/02/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/02/2018 11:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 12:57:34</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.changeOwnPasswordResponse.datasource">
+      <publishTime>05/09/2018 17:48:22</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.ChangeOwnPasswordResult.datasource">
+      <publishTime>05/09/2018 17:48:21</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.convertLeadResponse.datasource">
+      <publishTime>05/09/2018 17:48:17</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.createResponse.datasource">
+      <publishTime>05/09/2018 17:48:14</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DebuggingInfo.datasource">
+      <publishTime>05/09/2018 17:48:13</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.deleteByExampleResponse.datasource">
+      <publishTime>05/09/2018 17:48:23</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DeleteByExampleResult.datasource">
+      <publishTime>05/09/2018 17:48:23</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.deleteResponse.datasource">
+      <publishTime>05/09/2018 17:48:15</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DeleteResult.datasource">
+      <publishTime>05/09/2018 17:48:15</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeAllTabsResponse.datasource">
+      <publishTime>05/09/2018 17:48:12</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeAppMenuItem.datasource">
+      <publishTime>05/09/2018 17:48:06</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeAppMenuResponse.datasource">
+      <publishTime>05/09/2018 17:48:06</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeApprovalLayout.datasource">
+      <publishTime>05/09/2018 17:48:10</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeApprovalLayoutResponse.datasource">
+      <publishTime>05/09/2018 17:48:10</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeAvailableQuickActionResult.datasource">
+      <publishTime>05/09/2018 17:48:26</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeAvailableQuickActionsResponse.datasource">
+      <publishTime>05/09/2018 17:48:26</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeCompactLayout.datasource">
+      <publishTime>05/09/2018 17:48:09</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeCompactLayoutsResponse.datasource">
+      <publishTime>05/09/2018 17:48:10</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeCompactLayoutsResult.datasource">
+      <publishTime>05/09/2018 17:48:09</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeDataCategoryGroupResult.datasource">
+      <publishTime>05/09/2018 17:48:04</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeDataCategoryGroupsResponse.datasource">
+      <publishTime>05/09/2018 17:48:05</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeDataCategoryGroupStructureResult.datasource">
+      <publishTime>05/09/2018 17:48:05</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeDataCategoryGroupStructuresResponse.datasource">
+      <publishTime>05/09/2018 17:48:05</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeGlobalResponse.datasource">
+      <publishTime>05/09/2018 17:48:04</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeGlobalResult.datasource">
+      <publishTime>05/09/2018 17:48:04</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeGlobalTheme.datasource">
+      <publishTime>05/09/2018 17:48:06</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeGlobalThemeResponse.datasource">
+      <publishTime>05/09/2018 17:48:06</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeKnowledgeSettingsResponse.datasource">
+      <publishTime>05/09/2018 17:48:05</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeLayoutResponse.datasource">
+      <publishTime>05/09/2018 17:48:07</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeLayoutResult.datasource">
+      <publishTime>05/09/2018 17:48:07</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeNounResult.datasource">
+      <publishTime>05/09/2018 17:48:28</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeNounsResponse.datasource">
+      <publishTime>05/09/2018 17:48:28</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribePathAssistant.datasource">
+      <publishTime>05/09/2018 17:48:10</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describePathAssistantsResponse.datasource">
+      <publishTime>05/09/2018 17:48:10</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describePrimaryCompactLayoutsResponse.datasource">
+      <publishTime>05/09/2018 17:48:13</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeQuickActionResult.datasource">
+      <publishTime>05/09/2018 17:48:25</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeQuickActionsForRecordTypeResponse.datasource">
+      <publishTime>05/09/2018 17:48:26</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeQuickActionsResponse.datasource">
+      <publishTime>05/09/2018 17:48:25</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeSearchableEntitiesResponse.datasource">
+      <publishTime>05/09/2018 17:48:08</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeSearchableEntityResult.datasource">
+      <publishTime>05/09/2018 17:48:08</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeSearchLayoutResult.datasource">
+      <publishTime>05/09/2018 17:48:08</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeSearchLayoutsResponse.datasource">
+      <publishTime>05/09/2018 17:48:08</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeSearchScopeOrderResponse.datasource">
+      <publishTime>05/09/2018 17:48:09</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeSearchScopeOrderResult.datasource">
+      <publishTime>05/09/2018 17:48:09</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeSObjectListViewsResponse.datasource">
+      <publishTime>05/09/2018 17:48:12</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeSObjectResponse.datasource">
+      <publishTime>05/09/2018 17:48:03</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeSObjectResult.datasource">
+      <publishTime>05/09/2018 17:48:03</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeSObjectsResponse.datasource">
+      <publishTime>05/09/2018 17:48:04</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeSoftphoneLayoutResponse.datasource">
+      <publishTime>05/09/2018 17:48:07</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeSoftphoneLayoutResult.datasource">
+      <publishTime>05/09/2018 17:48:07</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeSoqlListView.datasource">
+      <publishTime>05/09/2018 17:48:11</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeSoqlListViewsResponse.datasource">
+      <publishTime>05/09/2018 17:48:11</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeTab.datasource">
+      <publishTime>05/09/2018 17:48:12</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeTabSetResult.datasource">
+      <publishTime>05/09/2018 17:48:12</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeTabsResponse.datasource">
+      <publishTime>05/09/2018 17:48:12</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeThemeItem.datasource">
+      <publishTime>05/09/2018 17:48:06</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeThemeResponse.datasource">
+      <publishTime>05/09/2018 17:48:07</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.describeVisualForceResponse.datasource">
+      <publishTime>05/09/2018 17:48:27</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.DescribeVisualForceResult.datasource">
+      <publishTime>05/09/2018 17:48:27</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.emptyRecycleBinResponse.datasource">
+      <publishTime>05/09/2018 17:48:16</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.EmptyRecycleBinResult.datasource">
+      <publishTime>05/09/2018 17:48:16</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.executeListViewResponse.datasource">
+      <publishTime>05/09/2018 17:48:11</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.ExecuteListViewResult.datasource">
+      <publishTime>05/09/2018 17:48:11</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.findDuplicatesByIdsResponse.datasource">
+      <publishTime>05/09/2018 17:48:28</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.findDuplicatesResponse.datasource">
+      <publishTime>05/09/2018 17:48:28</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.FindDuplicatesResult.datasource">
+      <publishTime>05/09/2018 17:48:27</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.getDeletedResponse.datasource">
+      <publishTime>05/09/2018 17:48:18</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.GetDeletedResult.datasource">
+      <publishTime>05/09/2018 17:48:18</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.getServerTimestampResponse.datasource">
+      <publishTime>05/09/2018 17:48:21</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.GetServerTimestampResult.datasource">
+      <publishTime>05/09/2018 17:48:20</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.getUpdatedResponse.datasource">
+      <publishTime>05/09/2018 17:48:19</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.GetUpdatedResult.datasource">
+      <publishTime>05/09/2018 17:48:19</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.getUserInfoResponse.datasource">
+      <publishTime>05/09/2018 17:48:22</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.GetUserInfoResult.datasource">
+      <publishTime>05/09/2018 17:48:00</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.invalidateSessionsResponse.datasource">
+      <publishTime>05/09/2018 17:48:18</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.InvalidateSessionsResult.datasource">
+      <publishTime>05/09/2018 17:48:18</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.KnowledgeSettings.datasource">
+      <publishTime>05/09/2018 17:48:05</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.LeadConvertResult.datasource">
+      <publishTime>05/09/2018 17:48:17</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.LimitInfo.datasource">
+      <publishTime>05/09/2018 17:48:03</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.loginResponse.datasource">
+      <publishTime>05/09/2018 17:48:02</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.LoginResult.datasource">
+      <publishTime>05/09/2018 17:48:02</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.logoutResponse.datasource">
+      <publishTime>05/09/2018 17:48:17</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.mergeResponse.datasource">
+      <publishTime>05/09/2018 17:48:15</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.MergeResult.datasource">
+      <publishTime>05/09/2018 17:48:15</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.PerformQuickActionResult.datasource">
+      <publishTime>05/09/2018 17:48:25</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.performQuickActionsResponse.datasource">
+      <publishTime>05/09/2018 17:48:25</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.processResponse.datasource">
+      <publishTime>05/09/2018 17:48:17</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.ProcessResult.datasource">
+      <publishTime>05/09/2018 17:48:17</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.queryAllResponse.datasource">
+      <publishTime>05/09/2018 17:48:19</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.queryMoreResponse.datasource">
+      <publishTime>05/09/2018 17:48:20</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.queryResponse.datasource">
+      <publishTime>05/09/2018 17:48:19</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.QueryResult.datasource">
+      <publishTime>05/09/2018 17:48:13</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.QuickActionTemplateResult.datasource">
+      <publishTime>05/09/2018 17:48:26</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.renderEmailTemplateResponse.datasource">
+      <publishTime>05/09/2018 17:48:24</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.RenderEmailTemplateResult.datasource">
+      <publishTime>05/09/2018 17:48:24</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.renderStoredEmailTemplateResponse.datasource">
+      <publishTime>05/09/2018 17:48:24</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.RenderStoredEmailTemplateResult.datasource">
+      <publishTime>05/09/2018 17:48:24</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.resetPasswordResponse.datasource">
+      <publishTime>05/09/2018 17:48:22</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.ResetPasswordResult.datasource">
+      <publishTime>05/09/2018 17:48:22</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.retrieveMassQuickActionTemplatesResponse.datasource">
+      <publishTime>05/09/2018 17:48:27</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.retrieveQuickActionTemplatesResponse.datasource">
+      <publishTime>05/09/2018 17:48:27</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.retrieveResponse.datasource">
+      <publishTime>05/09/2018 17:48:16</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.SaveResult.datasource">
+      <publishTime>05/09/2018 17:48:13</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.searchResponse.datasource">
+      <publishTime>05/09/2018 17:48:20</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.SearchResult.datasource">
+      <publishTime>05/09/2018 17:48:20</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.sendEmailMessageResponse.datasource">
+      <publishTime>05/09/2018 17:48:23</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.sendEmailResponse.datasource">
+      <publishTime>05/09/2018 17:48:23</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.SendEmailResult.datasource">
+      <publishTime>05/09/2018 17:48:23</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.setPasswordResponse.datasource">
+      <publishTime>05/09/2018 17:48:21</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.SetPasswordResult.datasource">
+      <publishTime>05/09/2018 17:48:21</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.sObject.datasource">
+      <publishTime>05/09/2018 17:48:13</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.undeleteResponse.datasource">
+      <publishTime>05/09/2018 17:48:16</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.UndeleteResult.datasource">
+      <publishTime>05/09/2018 17:48:15</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.updateResponse.datasource">
+      <publishTime>05/09/2018 17:48:14</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.upsertResponse.datasource">
+      <publishTime>05/09/2018 17:48:14</publishTime>
+    </File>
+    <File Include="Connected Services/Sfdc.Enterprise/ApiSmCotizador.Sfdc.Enterprise.UpsertResult.datasource">
+      <publishTime>05/09/2018 17:48:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/29/2018 08:06:49</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/29/2018 08:06:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>08/29/2018 08:06:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>08/29/2018 08:06:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>08/29/2018 08:06:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>08/29/2018 08:06:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>08/29/2018 08:06:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>08/29/2018 08:06:51</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>08/29/2018 08:07:04</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/29/2018 08:06:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/21/2018 15:44:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

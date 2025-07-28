@@ -1,0 +1,13 @@
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\BusinessLayer.dll.config
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\BusinessLayer.XmlSerializers.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\DataLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\ModelLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\DataLayer.pdb
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\ModelLayer.pdb
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\bin\Release\DataLayer.XmlSerializers.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\obj\Release\BusinessLayer.pdb
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\obj\Release\BusinessLayer.XmlSerializers.dll
+C:\Users\carreguin\source\repos\ApiSmCotizador\BusinessLayer\obj\Release\BusinessLayer.csprojResolveAssemblyReference.cache
